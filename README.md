@@ -77,13 +77,8 @@ Super Brain is one instantiation of it with the decisions already made. Same thr
 | **Frontmatter that `lint` can sort on** | `status`, `source_count` and `last_updated` on every page, plus ten checks split into errors, warnings and notes, ranked by what they unblock. A page with no `last_updated` is invisible to the health check, and an unranked report gets read once. |
 | **Gaps as a required section** | Every saved answer names what the wiki could not answer. That section is what tells you which source to go and find next, and it is the one most likely to be left empty because it was easier. |
 | **`feynman`** | Explains a page in plain words and sorts what went thin into the wiki's fault, the sources' fault and its own. The failure this pattern invites and does not address is you losing the thread of a wiki that something else read for you. |
-| **A limits file the agent has to read** | `8-System/limits.md` names five ways this breaks, and `8-System/brain.md` makes the agent read it before it tells you the wiki is sure about something. |
 
-What we left out: Karpathy suggests reaching for a real search tool - [qmd](https://github.com/tobi/qmd) or something like it - once the index stops being a sufficient map. We stayed index-only and declared the ceiling instead: roughly a hundred pages, one vault per domain, both written down in [limits.md](8-System/limits.md). Naming a limit is not removing it. If your vault outgrows the index, that is the first thing to go and fix, and the original pattern already tells you how.
-
-## What it does badly
-
-Read [8-System/limits.md](8-System/limits.md) before you trust it on anything expensive. Error compounding is real, a wiki that looks authoritative gets checked less than it should, and the index-first approach has a ceiling around a hundred pages. We would rather you knew that from us.
+This template defines no page limit, and one vault can cover multiple domains. As the wiki grows, use topic folders, category indexes and focused file search to find relevant pages without loading the whole wiki into one prompt. Adapt navigation when retrieval becomes slow or misses material; page count alone is not a reason to stop adding sources.
 
 ## Who's behind this
 

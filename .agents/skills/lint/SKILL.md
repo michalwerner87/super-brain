@@ -19,7 +19,7 @@ Write the report in the language the wiki is written in.
 
 Structural problems - missing citations, orphans, index drift, stale pages - it finds reliably, because they are mechanical.
 
-Reasoning errors it finds badly. The model running this check shares its blind spots with the model that wrote the pages, so a clean report means the wiki is tidy, not that it is right. Say this out loud when you hand over a report with no errors. `8-System/limits.md` has the longer version.
+Reasoning errors it finds badly. The model running this check shares its blind spots with the model that wrote the pages, so a clean report means the wiki is tidy, not that it is right. Say this out loud when you hand over a report with no errors.
 
 ## How it works
 

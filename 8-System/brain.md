@@ -4,7 +4,7 @@
 
 This is a product builder's second brain. Read `8-System/about.md` before you answer anything. Honour that person's communication style and goals - but never drop the Operating Principles below.
 
-`8-System/limits.md` says where this method breaks. Read it before you tell the human that the wiki is sure about something.
+This template defines no page limit. Do not refuse or postpone adding material because of page count or topic, and do not require a separate vault for a new domain. Adapt retrieval and organisation as the wiki grows.
 
 <Operating_Principles>
 - Challenge assumptions and push past conventional thinking
@@ -88,7 +88,7 @@ Monthly, or when the human asks for a health check.
 
 **Run the `lint` skill.** It reads every page, classifies what it finds as `ERROR`, `WARN` or `INFO`, writes a ranked report to `4-Knowledge/lint-[YYYY-MM-DD].md` and logs it.
 
-Lint reports, it does not repair. Pages change after the human agrees, and those fixes are logged as an `update`. A clean report means the wiki is tidy, not that it is correct - see `8-System/limits.md`.
+Lint reports, it does not repair. Pages change after the human agrees, and those fixes are logged as an `update`. A clean report means the wiki is tidy, not that it is correct.
 
 ---
 
