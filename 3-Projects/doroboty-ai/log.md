@@ -6,6 +6,14 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-10-25 - Landing dla kandydatów (prototyp)
+
+**Type:** prototype
+**What changed:** Powstał lokalny landing DoRoboty.ai skierowany do kandydatów (statyczny HTML/CSS/JS) oraz LANDING_BRIEF.md, DESIGN.md i LANDING_PROMPT.md. Koncepcja: jedna linia schematu od „AI” przez Build/Apply/Lead i trzy teksty aplikacji do karty Match Score; eksplorowalne 4 wymiary; jawne ograniczenia wyniku. Fakty wyłącznie z DR-CTX, przykłady oznaczone „PRZYKŁAD”, rejestracja i lista ofert niepodłączone.
+**Why:** Prezentacja obecnego portalu kandydatom, wywiad super-landing-page (12 etapów).
+**Next:** Potwierdzić, czy kandydat widzi swój Match Score (case tego nie określa); nazwać hipotezę po stronie kandydata, jeśli landing ma służyć celowi CEO (ponowny zakup pracodawców).
+**Files:** `code/landing-dorobotyai/` (poza vaultem): index.html, DESIGN.md, LANDING_BRIEF.md, LANDING_PROMPT.md
+
 ## 2026-10-20 - Materiały case'u w projekcie
 
 **Type:** research
